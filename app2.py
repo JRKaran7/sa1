@@ -6,6 +6,8 @@ import pywhatkit as kit
 import threading
 import streamlit as st
 
+if 'DISPLAY' not in os.environ:
+    os.environ['DISPLAY'] = ':0'
 # Initialize MediaPipe Pose solution
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
