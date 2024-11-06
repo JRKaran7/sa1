@@ -1,5 +1,8 @@
-opencv-python
-mediapipe
-numpy
-scikit-learn
-pywhatkit
+opencv-python-headless==4.10.0.84
+libgl1-mesa-glx
+mediapipe==0.10.18
+numpy==1.26.4
+scikit-learn==1.5.2
+scipy==1.14.1
+joblib==1.4.2
+flask==3.0.3
